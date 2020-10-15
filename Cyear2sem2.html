@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content = "width=device-width, initial-scale=1">
+<link rel = "stylesheet" type = "text/css" href = "stylesheetMain.css"/>
+<script>
+function search(){
+alert("no maching result");
+}
+
+</script>
+</head>
+<body>
+<header>	
+  <h1>Quick Exam</h1>
+</header>
+
+<div class = "nav">
+<a href = "home.html">Home</a>
+<a  href = "notice.html">Notices</a>
+<a  class = "active" href = "year.html">Year</a>
+<a href = "contactus.html">Contact Us</a>
+<a href = "Our Stories.html">Our Stories</a>
+</div>
+
+<div id = "contain" style ="padding:30px">
+</div>
+<style>
+#con{padding-top:0px;
+padding-bottom:100px;
+}
+h1{color:gray;
+padding-top :20px;
+font-size:50px;
+}
+ul{
+  list-style-type:none;
+  background: gray;
+  padding: 5px;
+}
+ul li {
+  font-size : 25px;
+  background: white ;
+  margin: 3px;
+  
+}
+form{
+width:1000px;
+margin:auto;
+margin top:250px;
+}
+.search{
+ width:80%;
+ padding:15px;
+ font-size:20px;
+}
+.submit{
+width :15%;
+padding:17px;
+font-size:20px;
+background-color:blue;
+color:white;
+margin:auto;
+}
+
+</style>
+<div  id = "con">
+<h1 align = "center">Courses</h1>
+
+ <ul>
+    
+    <li>Data Structures and Algorithms</li>
+    <li>Mobile Application Development</li>
+    <li>Employability Skills Development Seminar</li>
+
+  </ul>
+  <br><br>
+  <form >
+  <h2>search courses:</h2>  
+  <input class =  "search" type="text" placeholder="Search.." name = "Search"><input class = "submit"type = "submit" value ="Go"onclick = "search()">
+  </form>
+  </div>
+</body>
+<footer>
+</footer>
+</html>
